@@ -4,20 +4,15 @@ Developed by: Swetha Devi D
 Contact : swetha96devi@gmail.com
 Built for : NIIT Stackroute trainee UI Web 
 Date : 08/12/2018
-Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
-
+Files : index.html, css/style.css, css/script.js, css/images/ (26 images)
 -->
-<html>
-	<head>
-		<title></title>
-		<link href="css/style.css" rel="stylesheet"></link>
-		<link href="css/style1.css" rel="stylesheet"></link> 
-	<head>
+	<title lang= "en">WELCOME TO THE PORTFOLIO WEBSITE</title>
+	<link href="css/style.css" rel="stylesheet"></link>
+	<link href="css/style1.css" rel="stylesheet"></link> 
 	<body>
-
 		<!-- This is a header section for the Portfolio website-->
 		<header>
-			<div class="logo"><img src="images/boeing_logo.png" style="width:180px;height:40px;" alt="boeing logo"/></div>
+			<div class="logo"><img src="images/boeing_logo.png" alt="boeing logo image" style="width:180px;height:40px;" alt="boeing logo"/></div>
 			<div class="nav-container">
 				<nav>
 					<div class="nav-item">
@@ -33,7 +28,8 @@ Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
 						<a href="#testimonial">Interest</a>
 					</div>
 					<div class="nav-item">
-						<a href="contact_swetha.html">SwethaProfile</a>
+						<a href="contact_swetha.html">Swetha_Profile</a>
+					</div>
 					<div class="nav-item">
 						<a href="#map">Map</a>
 					</div>
@@ -54,38 +50,38 @@ Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
 							<h1>BOEING DEFENCE </h1>
 							<a href="https://www.boeing.com/defense/"><p>Visit the Boeing Defence site </p></a>
 						</div>
-						<img src="src/images/defence1.jpeg"/>
+						<img src="images/defence1.jpeg" alt="defence1"/>
 					</div>
 					<div class="inner-banner">
 						<div class="banner-tagline">
 							<h1>BOEING SPACE</h1>
 							<a href="https://www.boeing.com/space/"><p>Visit the Boeing Space site</p></a>
 						</div>
-						<img src="images/space1.jpeg"/>
+						<img src="images/space1.jpeg" alt="space1"/>
 					</div>
 					<div class="inner-banner">
 						<div class="banner-tagline">
 							<h1>BOEING PRODUCTS</h1>
 							<a href="https://www.boeing.com/history/products/"><p>Visit Boeing Products Site</p></a>
 						</div>
-						<img src="images/product1.png"/>
+						<img src="images/product1.png" alt="product1"/>
 					</div>
 					<div class="inner-banner">
 						<div class="banner-tagline">
 							<h1>BOEING SERVICES</h1>
 							<a href="https://www.boeing.com/commercial/services/"><p>Visit Boeing Commercial Services</p></a>
 						</div>
-						<img src="images/services1.jpg"/>
+						<img src="images/services1.jpg" alt="services1"/>
 					</div>
 				</div>
-				<img src="images/left.jpg" class="left" onclick="changeSlide('left')"/>
+				<img src="images/left.jpg" alt="left image" class="left" onclick="changeSlide('left')"/>
 				<div class="center">
 					<span class="dot" onclick="changeSlide(0)" id="bannerctrl1" ></span>
 					<span class="dot" onclick="changeSlide(-100)" id="bannerctrl2"></span>
 					<span class="dot" onclick="changeSlide(-200)" id="bannerctrl3"></span>
 					<span class="dot" onclick="changeSlide(-300)" id="bannerctrl4"></span> 
 				</div> 
-				<img src="images/right.jpg" class="right" onclick="changeSlide('right')"/>
+				<img src="images/right.jpg" alt="right arrow" class="right" onclick="changeSlide('right')"/>
 				
 			</div>
 			<!--  Passionate slides includes the aspects of passion-->
@@ -93,19 +89,19 @@ Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
 				<h1>PASSIONATE</h1>
 				<p>"Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world"."Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence".</p>
 				<div class="service-item">
-					<img src="images/create.jpeg"/>
+					<img src="images/create.jpeg" alt="create"/>
 					<p>THINK</p>
 				</div>
 				<div class="service-item">
-					<img src="images/think.jpg"/>
+					<img src="images/think.jpg" alt="think"/>
 					<p>CREATE</p>
 				</div>
 				<div class="service-item">
-					<img src="images/innovate.png"/>
+					<img src="images/innovate.png" alt="innovate"/>
 					<p>INNOVATE And EXPLORE</p>
 				</div>
 				<div class="service-item">
-					<img src="images/thatsall.jpg"/>
+					<img src="images/thatsall.jpg" alt="that_sall"/>
 					<p>THATS ALL(`_`)\</p>
 				</div>
 			</div>
@@ -115,7 +111,7 @@ Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
 				<p>The Below are the various project undertaken. It covers the various technologies like Machine learning,AJAX,Webtech-2 technologies and Database.  </p>
 				<div class="cards">
 					<div class="card">
-						<img src="images/rms.png"/>
+						<img src="images/rms.png" alt="rms image"/>
 						<p>Machine Learning Based "IMAGE DESCRIPTION USING CNN": This is a Machine Learning project. In this project given an input image it transfers it into a English language
 							textual description. we have used the CNN for the object recognition and have made it possible to extract
 							high level image information. We have implemented the model of VGG16,this model is used for prediction
@@ -126,7 +122,7 @@ Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
 				</div>
 				<div class="cards">
 					<div class="card">
-						<img src="images/spydr.png" />
+						<img src="images/spydr.png" alt="spyder"/>
 						<p>Web Tech based "LIVE CRICKET SCORE UPDATE" This is a Website exclusively for the game of cricket , website using AJAX ,JavaScript, jQuery ,Web
 							service(API) for front-end and used PHP for back-end. Ajax techniques are used to make requests to the
 							server. We built a real time Cricket score and Commentary updating site which also gives information about
@@ -137,7 +133,7 @@ Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
 				</div>
 				<div class="cards">
 					<div class="card">
-						<img src="images/bi.png" />
+						<img src="images/bi.png" alt="bi image" />
 						<p>DBMS based "HOSPITAL MANAGEMENT":This is a DBMS based project where in this we maintained the hospital details, patient records in a
 							database. MySQL is used where the hospital details, patients record are stored in the database. The
 							database is controlled over the server using the PHP in the backend, and Html in the User Interface </p>
@@ -158,28 +154,28 @@ Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
 						<p>CAPTAIN AMERICA. THE MARVEL COMIC CHARECTER</p>
 					</div>
 					<div class="inner-testimonial">
-						<img src="images/comic3.jpg" comic="comic3" >
+						<img src="images/comic3.jpg" alt="comic3" >
 						<p>THE FLASH. THE DC COMIC CHARECTER</p>
 					</div>
 					<div class="inner-testimonial">
-						<img src="images/comic4.jpg" >
+						<img src="images/comic4.jpg" alt="comic4" >
 						<p>WOLVORINE. THE MARVEL COMIC CHARECTER  Favourite all time</p>
 					</div>
 				</div>
-				<img src="images/left.jpg" class="left" onclick="testimonialSlide('left')"/>
+				<img src="images/left.jpg" alt="left" class="left" onclick="testimonialSlide('left')"/>
 				<div class="center">
 					<span class="dot" onclick="testimonialSlide(0)" id="testimonialctrl1" ></span>
 					<span class="dot" onclick="testimonialSlide(-100)" id="testimonialctrl2"></span>
 					<span class="dot" onclick="testimonialSlide(-200)" id="testimonialctrl3"></span>
 					<span class="dot" onclick="testimonialSlide(-300)" id="testimonialctrl4"></span> 
 				</div> 
-				<img src="images/right.jpg" class="right" onclick="testimonialSlide('right')"/>
+				<img src="images/right.jpg" alt="right image" class="right" onclick="testimonialSlide('right')"/>
 			
 			</div>
 			<!-- This is a Map, About and Address of the footer section-->
 			<div class="block" id="map">
 			<h1>MAP</h1>
-			<script type="text/javascript" src="script.js" ></script>
+			<script  src="script.js" ></script>
 			<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 			</div>
 			<div class="block" id="about">

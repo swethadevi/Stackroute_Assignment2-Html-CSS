@@ -1,7 +1,18 @@
+/*
+<!--
+Developed by: Swetha Devi D	
+Contact : swetha96devi@gmail.com
+Built for : NIIT Stackroute trainee UI Web 
+Date : 08/12/2018
+Files : index.html, css/style.css, css/script.js, css/images/ (26 images)
+-->
+*/
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 12px;
+    bgcolor: "#867bf"
   }
   
   div {
