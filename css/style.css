@@ -1,0 +1,345 @@
+/*
+
+Developed by: Swetha Devi D
+Contact : swetha96devi@gmail.com
+Built for : NIIT Stackroute trainee UI Web 
+Date : 08/12/2018
+Files : index.html, src/style.css, src/script.js, src/images/ (19 images)
+*/
+
+body
+{
+	min-width : 1200px;
+	width : 100%;
+	text-align : center;
+	font-family : Arial;
+	font-size : 12px;
+	margin : 0px;
+	padding : 0px;
+}
+
+header 
+{
+	background-color : olive;
+	position : fixed;
+	height : 50px;
+	width : 100%;
+	z-index : 1;
+	transition : all 0.5s linear;
+}
+
+#banner, #testimonial 
+{
+	padding : 0px;
+	width : 100%;
+	position : relative;
+	overflow : hidden;
+	transition : all 0.5s linear;
+}
+
+#banner 
+{
+	height : 550px;
+}
+
+#testimonial 
+{
+	height : 300px;
+}
+
+#banner > .banner-wrap, #testimonial > .testimonial-wrap
+{
+	position : absolute;
+	width : 400%;
+	height : 100%;
+	transition : all 0.5s linear;
+}
+
+.inner-banner, .inner-testimonial
+{
+	width : 25%;
+	height : 100%;
+	float : left;
+	position : relative;
+}
+
+.inner-banner 
+{
+	background : #BBB;
+}
+
+.inner-testimonial
+{
+	background : #FFF;
+}
+
+.banner-tagline
+{
+	float : left;
+	font-weight : bold;
+	color : #FFF;
+	text-align : left;
+	padding : 20px;
+	text-shadow : 2px 2px grey;
+	width : 300px;
+}
+.banner-tagline > h1
+{
+	padding : 10px;
+	width : 100%;
+	background : red;
+}
+
+a > p
+{
+	text-align : center;
+	width : 150px;
+	padding : 10px;
+	border : 1px solid black;
+	color : white;
+	border-radius : 10px;
+	background-color : blue;	
+}
+
+a > p:hover {
+	background-color : red;
+}
+
+.inner-banner > img 
+{
+	top : 50px;
+	float : left;
+	width : 70%;
+	transition : all 0.5s linear;
+}
+
+.logo
+{
+	color : #AE4040;
+	width : 200px;
+	height : 30px;
+	padding : 10px;
+	float : left;
+}
+
+.nav-container
+{
+	padding : 10px;
+	float : right;
+}
+
+.nav-item 
+{
+	width : 80px;
+	float : left;
+	padding : 6px;
+}
+
+.nav-item:hover
+{
+	border-left : 1px black solid;
+	border-right : 1px black solid;
+	text-shadow: 1px 1px #000;
+	width : 78px;
+}
+
+a, a:visited{
+    text-decoration: none;
+	color : #EEE;
+}
+
+a:hover
+{
+	color: #00F
+}
+
+.body-container
+{
+	position : relative;
+}
+
+.block
+{
+    padding: 40px; 
+    text-align: center;
+}
+
+.service-item
+{
+	color : #CCC;
+	text-align : center;
+	vertical-align : top;
+    display: inline-block;
+    padding: 15px 10px;
+	width : 20%;
+	height : 160px;
+}
+
+.service-item > img , .inner-testimonial > img
+{
+	width : 100px;
+	height : 100px;
+	border-radius : 100%;
+	box-shadow: 8px 8px 5px grey;
+	transition : all 0.5s linear;
+}
+
+.service-item > img:hover, .inner-testimonial > img:hover
+{
+	border-radius : 0px;
+	box-shadow: 8px 8px 5px grey;
+}
+
+#brands
+{
+	background : #AAA;
+}
+
+.cards
+{
+	width : 270px;
+	display : inline-block;
+	height : 470px;
+	padding : 0px 50px;
+	overflow : hidden;
+}
+
+.card:hover
+{
+	box-shadow: 8px 8px 5px grey;
+	border-right : 1px grey solid;
+	background : #FFF;
+}
+
+.card
+{
+	background : #EEE;
+	padding : 20px;
+	width : 240px;
+	height : 420px;
+	transition : all 0.5s linear;
+}
+
+.card > img
+{
+	width : 230px;
+	height : 200px;
+	transition : all 0.5s linear;
+}
+
+#map
+{
+	height : 300px;
+}
+
+#about
+{
+	background-color : #3a3a3a;
+	padding : 10px;
+}
+
+.form-element
+{
+	padding : 5px;
+	line-height : 15px;
+}
+
+.form-element > input, .form-element > textarea
+{
+	padding : 5px;
+	width : 180px;
+}
+
+.form-element > textarea 
+{
+	resize : none;
+}
+
+.form-element > input[type=button]
+{
+	width : 192px; 
+}
+
+.items
+{
+	color : #CCC;
+	text-align : left;
+	vertical-align : top;
+    display: inline-block;
+    padding: 15px 10px;
+	width : 20%;
+	height : 230px;
+	transition : all 0.5s linear;
+}
+
+#about > .items:hover
+{
+	background-color : #4a4a4a;
+	text-shadow: 1px 1px #000;
+	border-radius : 5px;
+	color : #FFF;
+}
+
+ul, li
+{
+	padding : 2px;
+	list-style-type: none;
+	padding-left:0px;
+}
+
+footer
+{
+	background-color : #000000;
+	color : #AFADAE;
+}
+
+.left, .right{
+	position:absolute;
+	top:40%;
+	width:50px;
+	height:50px;
+	padding : 10px;
+	background : #999;
+	border-radius : 5px;
+}
+
+.left 
+{
+	left:30px;
+}
+
+.right 
+{
+	right:30px;
+}
+
+.center 
+{
+	position : absolute;
+	left : 45%;
+	right : 45%;
+	bottom: 10px;
+	height : 15px;
+	padding : 5px;
+	background : #AAA;
+	border-radius : 10px;
+
+}
+
+.center > .dot
+{
+	position : relative;
+	height: 10px;
+	width: 10px;
+	background-color: #FFF;
+	border-radius: 50%;
+	display: inline-block;
+	transition : all 0.5s linear;
+}
+
+.left:hover, .right:hover, .center:hover
+{
+	transition : all 0.5s linear;
+	padding : 10px;
+	background : #DDD;
+}
