@@ -1,9 +1,11 @@
 /*
-
+<!--
+Developed by: Swetha Devi D	
 Contact : swetha96devi@gmail.com
 Built for : NIIT Stackroute trainee UI Web 
 Date : 08/12/2018
-Files : index.html, src/style.css, src/script.js, src/images/ (18 images)
+Files : index.html, css/style.css, css/script.js, css/images/ (26 images)
+-->
 
 */
 

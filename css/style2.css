@@ -1,0 +1,35 @@
+/*
+<!--
+Developed by: Swetha Devi D	
+Contact : swetha96devi@gmail.com
+Built for : NIIT Stackroute trainee UI Web 
+Date : 08/12/2018
+Files : index.html, css/style.css,css/style1.css, css/style2.css, css/script.js, css/images/, css/ (26 images)
+-->
+*/
+.parallax {
+	background-image: url(../images/swetha.jpg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:10px auto;
+	 }
+
+.parallax1 {
+	background-image: url(../images/swethadevid.png);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:10px auto;
+	 } 
+
+.achieve {
+	background-color: black;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+  } 
