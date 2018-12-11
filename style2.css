@@ -7,26 +7,23 @@ Date : 08/12/2018
 Files : index.html, css/style.css,css/style1.css, css/style2.css, css/script.js, css/images/, css/ (26 images)
 -->
 */
-body,html{
-	background-color:burlywood;
-}
 .parallax {
-	background-image: url(../images/swetha.jpg);
-	height: 750px;
-	width:700px;
+	background-image: url(images/swetha.jpg);
+	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin:10px auto;
-	z-index: 5;
 	 }
 
 .parallax1 {
-	background-image: url(../images/swethadevid.png);
-	height: 1000px;
+	background-image: url(images/swethadevid.png);
+	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin:10px auto;
 	 } 
 
